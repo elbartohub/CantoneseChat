@@ -1,0 +1,19 @@
+// Cantonese pronunciation override dictionary
+//
+// Format: 一行一個 entry, "原字>替代字"
+// Example:
+//   銀行>銀航
+//   行人路>恆人路
+//   35 美元>三十五蚊
+//
+// 喺 TTS synthesize 之前 substitute, 確保 TTS 讀到對嘅粵音.
+// 順便 inject 入 LLM system prompt, 教 LLM 用同一個粵音 spelling.
+行>航
+銀行>銀航
+行人>恆人
+行人路>恆人路
+走路>行路
+hk dollar>港紙
+HKD>港紙
+㗎>嫁
+呀>啊

@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0120060696A6542604B73389 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0EA5EFB849AF3F3622847C /* SettingsView.swift */; };
+		01DCD4290AE3FF3BFB149820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA75D7B4690082809D3FB0E8 /* LaunchScreen.storyboard */; };
+		03246ABCB9CE0F2215F959DA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA156EA8F2BB8132DC7882DF /* HomeView.swift */; };
+		09D81DFC289E03460693C9BD /* DiffPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE08EE98D2E3F0D3E56406B /* DiffPreviewView.swift */; };
+		1B4BE32E194E0B544E090ED8 /* TtsLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED1CAC9E9395BD9D0AC5584 /* TtsLabView.swift */; };
+		26ABB475149044FA99AAF1EF /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109349A02BCAC5C60387788 /* OnboardingView.swift */; };
+		3218B9FF8F44C2B3489DC4C5 /* RUN.md in Resources */ = {isa = PBXBuildFile; fileRef = 65897281567A0E278DE9DE19 /* RUN.md */; };
+		38685FB28E0CEAE5E65BE606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6E86C7BCAD697C713B40B0 /* Assets.xcassets */; };
+		3A75A8D0ACC67707F75FFB26 /* TtsLabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7874C0AA0A7139F9A953E54A /* TtsLabViewModel.swift */; };
+		554FF78D8078D9EBC6949556 /* ICloudExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AC65448C68BE7B14B81708 /* ICloudExportService.swift */; };
+		5D502AB2C4A9C2A8BB1015C9 /* CantonesePronunciation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AE6EBE019D67CE96FED0E9 /* CantonesePronunciation.swift */; };
+		5D955DDFF869B9114E6349E8 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E81A406D220F0C9CF1B3FC /* SpeechRecognizer.swift */; };
+		6703B8FBF25BDD66726E18B0 /* VoiceActivityDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C9ECB78DADCB4559D0D783 /* VoiceActivityDetector.swift */; };
+		71D134C2851E258C66C14F9E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E37833B957D953BEC21A98 /* Models.swift */; };
+		8133C00383D6B6F87C222811 /* TTSSerialQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BECBD71E3BC226B4ADE0A0 /* TTSSerialQueue.swift */; };
+		8553ED9CD930BAE98279A75D /* MiniMaxService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB743BAD5F99DEB3670352F3 /* MiniMaxService.swift */; };
+		8753E043315B96858E05D220 /* tts_sample_cantonese.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4D072E023D04DDAF625B653 /* tts_sample_cantonese.mp3 */; };
+		90CCA4079D0E05A32FCEA21F /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436057D6028924C74B88335 /* WelcomeScreen.swift */; };
+		91191248DDABF211907263EE /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61056677DAF796C29203715F /* ChatView.swift */; };
+		9BD435A33C856B9B9463B86B /* TTSCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BAFCD830D7F2525B21DC66 /* TTSCache.swift */; };
+		9CA07C73A0491EEC8A530772 /* StreamingAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2308BC224994955EC805D75A /* StreamingAudioPlayer.swift */; };
+		A3712B79D42D5DFA2CEECDFD /* CantoneseVoiceChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596D176F0E4585E7D52E23E5 /* CantoneseVoiceChatApp.swift */; };
+		A42F9A8C68347512DE2C73B4 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD8FAD698CB87CECDA4364C /* RootView.swift */; };
+		AB01C0E3F7D7ED6644EE297C /* AppleSpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2344130D38D096BEEECDCA6A /* AppleSpeechRecognizer.swift */; };
+		C02540F9EC8FCBF2EACCE313 /* pronunciation_overrides.txt in Resources */ = {isa = PBXBuildFile; fileRef = 771F5573141968B43E6F3091 /* pronunciation_overrides.txt */; };
+		C4205CE8E5BF4986FEF5924F /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D8CF66883CAEA17632068 /* AudioService.swift */; };
+		CC90071DD20424B37E080D4F /* SpeakerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677F3F6996D4482D2054FD99 /* SpeakerProfile.swift */; };
+		D9E86CDE6EEC2526DA963A04 /* STTErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88703ADCFCDE4FEA293E6023 /* STTErrorMessage.swift */; };
+		DBA7C5D841C0CBE75972123C /* FallbackSpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410FC820B84D3CE86C206AED /* FallbackSpeechRecognizer.swift */; };
+		DDE45B929ED9CE7696A98228 /* PersonaChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358A9BFBB291EF202C74492 /* PersonaChip.swift */; };
+		F52F603D9A4E6C98378A7E62 /* hello_iced_lemon_tea.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F8AD6B70B6F9B7E44289D159 /* hello_iced_lemon_tea.m4a */; };
+		FE8B68ABE6EE6B6AE29F6CA2 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB8E15523446C20AD214F2 /* ChatViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05AC65448C68BE7B14B81708 /* ICloudExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICloudExportService.swift; sourceTree = "<group>"; };
+		1F0EA5EFB849AF3F3622847C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1FD8FAD698CB87CECDA4364C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		2308BC224994955EC805D75A /* StreamingAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingAudioPlayer.swift; sourceTree = "<group>"; };
+		2344130D38D096BEEECDCA6A /* AppleSpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSpeechRecognizer.swift; sourceTree = "<group>"; };
+		410FC820B84D3CE86C206AED /* FallbackSpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallbackSpeechRecognizer.swift; sourceTree = "<group>"; };
+		5358A9BFBB291EF202C74492 /* PersonaChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaChip.swift; sourceTree = "<group>"; };
+		5436057D6028924C74B88335 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		596D176F0E4585E7D52E23E5 /* CantoneseVoiceChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CantoneseVoiceChatApp.swift; sourceTree = "<group>"; };
+		5FE08EE98D2E3F0D3E56406B /* DiffPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffPreviewView.swift; sourceTree = "<group>"; };
+		61056677DAF796C29203715F /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		65897281567A0E278DE9DE19 /* RUN.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RUN.md; sourceTree = "<group>"; };
+		677F3F6996D4482D2054FD99 /* SpeakerProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerProfile.swift; sourceTree = "<group>"; };
+		771F5573141968B43E6F3091 /* pronunciation_overrides.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = pronunciation_overrides.txt; sourceTree = "<group>"; };
+		7874C0AA0A7139F9A953E54A /* TtsLabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TtsLabViewModel.swift; sourceTree = "<group>"; };
+		80E37833B957D953BEC21A98 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		8109349A02BCAC5C60387788 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		88703ADCFCDE4FEA293E6023 /* STTErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STTErrorMessage.swift; sourceTree = "<group>"; };
+		88AE6EBE019D67CE96FED0E9 /* CantonesePronunciation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CantonesePronunciation.swift; sourceTree = "<group>"; };
+		96BAFCD830D7F2525B21DC66 /* TTSCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSCache.swift; sourceTree = "<group>"; };
+		9AAB8E15523446C20AD214F2 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		AE6E86C7BCAD697C713B40B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AED1CAC9E9395BD9D0AC5584 /* TtsLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TtsLabView.swift; sourceTree = "<group>"; };
+		B4D072E023D04DDAF625B653 /* tts_sample_cantonese.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tts_sample_cantonese.mp3; sourceTree = "<group>"; };
+		BA75D7B4690082809D3FB0E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB743BAD5F99DEB3670352F3 /* MiniMaxService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMaxService.swift; sourceTree = "<group>"; };
+		BF62D5220DE72A981D42A325 /* CantoneseVoiceChat.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CantoneseVoiceChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20D8CF66883CAEA17632068 /* AudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
+		C3BECBD71E3BC226B4ADE0A0 /* TTSSerialQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSSerialQueue.swift; sourceTree = "<group>"; };
+		CA156EA8F2BB8132DC7882DF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D3E81A406D220F0C9CF1B3FC /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		F0C9ECB78DADCB4559D0D783 /* VoiceActivityDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceActivityDetector.swift; sourceTree = "<group>"; };
+		F8AD6B70B6F9B7E44289D159 /* hello_iced_lemon_tea.m4a */ = {isa = PBXFileReference; path = hello_iced_lemon_tea.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		168649B03452D5A179F8E1AF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9AAB8E15523446C20AD214F2 /* ChatViewModel.swift */,
+				7874C0AA0A7139F9A953E54A /* TtsLabViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3277147986C38372AC353D44 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				596D176F0E4585E7D52E23E5 /* CantoneseVoiceChatApp.swift */,
+				1FD8FAD698CB87CECDA4364C /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		339F19ABC5689198A397FA24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF62D5220DE72A981D42A325 /* CantoneseVoiceChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3892830C22EDE6127BD348CF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2344130D38D096BEEECDCA6A /* AppleSpeechRecognizer.swift */,
+				C20D8CF66883CAEA17632068 /* AudioService.swift */,
+				88AE6EBE019D67CE96FED0E9 /* CantonesePronunciation.swift */,
+				410FC820B84D3CE86C206AED /* FallbackSpeechRecognizer.swift */,
+				05AC65448C68BE7B14B81708 /* ICloudExportService.swift */,
+				BB743BAD5F99DEB3670352F3 /* MiniMaxService.swift */,
+				677F3F6996D4482D2054FD99 /* SpeakerProfile.swift */,
+				D3E81A406D220F0C9CF1B3FC /* SpeechRecognizer.swift */,
+				2308BC224994955EC805D75A /* StreamingAudioPlayer.swift */,
+				88703ADCFCDE4FEA293E6023 /* STTErrorMessage.swift */,
+				96BAFCD830D7F2525B21DC66 /* TTSCache.swift */,
+				C3BECBD71E3BC226B4ADE0A0 /* TTSSerialQueue.swift */,
+				F0C9ECB78DADCB4559D0D783 /* VoiceActivityDetector.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4DEE12275056F7122ED6DB1F /* SampleAudio */ = {
+			isa = PBXGroup;
+			children = (
+				F8AD6B70B6F9B7E44289D159 /* hello_iced_lemon_tea.m4a */,
+				B4D072E023D04DDAF625B653 /* tts_sample_cantonese.mp3 */,
+			);
+			path = SampleAudio;
+			sourceTree = "<group>";
+		};
+		54DFA62E879697A20598A822 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE6E86C7BCAD697C713B40B0 /* Assets.xcassets */,
+				BA75D7B4690082809D3FB0E8 /* LaunchScreen.storyboard */,
+				771F5573141968B43E6F3091 /* pronunciation_overrides.txt */,
+				4DEE12275056F7122ED6DB1F /* SampleAudio */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		660214AFAD6B2171E1EC83F9 = {
+			isa = PBXGroup;
+			children = (
+				832202FDD9CCDB65372B8EA9 /* CantoneseVoiceChat */,
+				339F19ABC5689198A397FA24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		832202FDD9CCDB65372B8EA9 /* CantoneseVoiceChat */ = {
+			isa = PBXGroup;
+			children = (
+				65897281567A0E278DE9DE19 /* RUN.md */,
+				3277147986C38372AC353D44 /* App */,
+				D907A3540206418BE764DE09 /* Models */,
+				54DFA62E879697A20598A822 /* Resources */,
+				3892830C22EDE6127BD348CF /* Services */,
+				168649B03452D5A179F8E1AF /* ViewModels */,
+				E494D2A728DD53D8D682F05D /* Views */,
+			);
+			path = CantoneseVoiceChat;
+			sourceTree = "<group>";
+		};
+		D907A3540206418BE764DE09 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				80E37833B957D953BEC21A98 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E494D2A728DD53D8D682F05D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				61056677DAF796C29203715F /* ChatView.swift */,
+				5FE08EE98D2E3F0D3E56406B /* DiffPreviewView.swift */,
+				CA156EA8F2BB8132DC7882DF /* HomeView.swift */,
+				8109349A02BCAC5C60387788 /* OnboardingView.swift */,
+				5358A9BFBB291EF202C74492 /* PersonaChip.swift */,
+				1F0EA5EFB849AF3F3622847C /* SettingsView.swift */,
+				AED1CAC9E9395BD9D0AC5584 /* TtsLabView.swift */,
+				5436057D6028924C74B88335 /* WelcomeScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74FB4AFDF4DC909DA967B545 /* CantoneseVoiceChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27FEC0B7E2A732190AEB1B8A /* Build configuration list for PBXNativeTarget "CantoneseVoiceChat" */;
+			buildPhases = (
+				A4817040362DF797B03AA95C /* Sources */,
+				2241AB63C9FDCC0743BA547B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CantoneseVoiceChat;
+			packageProductDependencies = (
+			);
+			productName = CantoneseVoiceChat;
+			productReference = BF62D5220DE72A981D42A325 /* CantoneseVoiceChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA61FCAE1F34B217B328F6FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					74FB4AFDF4DC909DA967B545 = {
+						DevelopmentTeam = YOUR_TEAM_ID;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7F3B4E7F2E70F043AA1C5C39 /* Build configuration list for PBXProject "CantoneseVoiceChat" */;
+			developmentRegion = "zh-Hant";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				"zh-Hant",
+			);
+			mainGroup = 660214AFAD6B2171E1EC83F9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 339F19ABC5689198A397FA24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74FB4AFDF4DC909DA967B545 /* CantoneseVoiceChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2241AB63C9FDCC0743BA547B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38685FB28E0CEAE5E65BE606 /* Assets.xcassets in Resources */,
+				01DCD4290AE3FF3BFB149820 /* LaunchScreen.storyboard in Resources */,
+				3218B9FF8F44C2B3489DC4C5 /* RUN.md in Resources */,
+				F52F603D9A4E6C98378A7E62 /* hello_iced_lemon_tea.m4a in Resources */,
+				C02540F9EC8FCBF2EACCE313 /* pronunciation_overrides.txt in Resources */,
+				8753E043315B96858E05D220 /* tts_sample_cantonese.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4817040362DF797B03AA95C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB01C0E3F7D7ED6644EE297C /* AppleSpeechRecognizer.swift in Sources */,
+				C4205CE8E5BF4986FEF5924F /* AudioService.swift in Sources */,
+				5D502AB2C4A9C2A8BB1015C9 /* CantonesePronunciation.swift in Sources */,
+				A3712B79D42D5DFA2CEECDFD /* CantoneseVoiceChatApp.swift in Sources */,
+				91191248DDABF211907263EE /* ChatView.swift in Sources */,
+				FE8B68ABE6EE6B6AE29F6CA2 /* ChatViewModel.swift in Sources */,
+				09D81DFC289E03460693C9BD /* DiffPreviewView.swift in Sources */,
+				DBA7C5D841C0CBE75972123C /* FallbackSpeechRecognizer.swift in Sources */,
+				03246ABCB9CE0F2215F959DA /* HomeView.swift in Sources */,
+				554FF78D8078D9EBC6949556 /* ICloudExportService.swift in Sources */,
+				8553ED9CD930BAE98279A75D /* MiniMaxService.swift in Sources */,
+				71D134C2851E258C66C14F9E /* Models.swift in Sources */,
+				26ABB475149044FA99AAF1EF /* OnboardingView.swift in Sources */,
+				DDE45B929ED9CE7696A98228 /* PersonaChip.swift in Sources */,
+				A42F9A8C68347512DE2C73B4 /* RootView.swift in Sources */,
+				D9E86CDE6EEC2526DA963A04 /* STTErrorMessage.swift in Sources */,
+				0120060696A6542604B73389 /* SettingsView.swift in Sources */,
+				CC90071DD20424B37E080D4F /* SpeakerProfile.swift in Sources */,
+				5D955DDFF869B9114E6349E8 /* SpeechRecognizer.swift in Sources */,
+				9CA07C73A0491EEC8A530772 /* StreamingAudioPlayer.swift in Sources */,
+				9BD435A33C856B9B9463B86B /* TTSCache.swift in Sources */,
+				8133C00383D6B6F87C222811 /* TTSSerialQueue.swift in Sources */,
+				1B4BE32E194E0B544E090ED8 /* TtsLabView.swift in Sources */,
+				3A75A8D0ACC67707F75FFB26 /* TtsLabViewModel.swift in Sources */,
+				6703B8FBF25BDD66726E18B0 /* VoiceActivityDetector.swift in Sources */,
+				90CCA4079D0E05A32FCEA21F /* WelcomeScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9A936F527388566D482B48BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CantoneseVoiceChat/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C32CD70E98C24F46ECE8C85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CantoneseVoiceChat/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9E03717C4B0F2DDD1039D76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YOUR_TEAM_ID;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CantoneseVoiceChat/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.CantoneseVoiceChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		F866BEBCF92608FCBF412897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = YOUR_TEAM_ID;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CantoneseVoiceChat/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.CantoneseVoiceChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27FEC0B7E2A732190AEB1B8A /* Build configuration list for PBXNativeTarget "CantoneseVoiceChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A936F527388566D482B48BE /* Debug */,
+				C32CD70E98C24F46ECE8C85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7F3B4E7F2E70F043AA1C5C39 /* Build configuration list for PBXProject "CantoneseVoiceChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E03717C4B0F2DDD1039D76 /* Debug */,
+				F866BEBCF92608FCBF412897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA61FCAE1F34B217B328F6FE /* Project object */;
+}
